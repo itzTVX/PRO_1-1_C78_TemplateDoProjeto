@@ -22,7 +22,7 @@ export default class StarMapScreen extends Component {
                 // style={styles.titleText}
                 // style={{styles.titleText}}
                 // style=styles.titleText
-                // style={titleText}
+                 style={titleText}
                 >Star Map</Text>
 
                     <TextInput
@@ -36,11 +36,11 @@ export default class StarMapScreen extends Component {
                         //     })
                         // }}
 
-                        // onChangeText={(text) => {
-                        //     this.setState(
-                        //         longitude: text
-                        //     )
-                        // }}
+                         onChangeText={(text) => {
+                             this.setState(
+                                 longitude: text
+                             )
+                         }}
 
                         // onChangeText={() => {
                         //     this.setState({
